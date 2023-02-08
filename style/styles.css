@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 340px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul li:hover{
+    background-color: crimson;
+}
+
+.navbar ul ul{
+    display: none;
+}
+
+.navbar ul li:hover>ul{
+    display: block;
+}
+
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 80px;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    
+}
+
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+.icon i{
+    font-size: 35px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+}
+
+.copy{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+}
